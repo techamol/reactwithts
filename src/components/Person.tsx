@@ -1,9 +1,5 @@
 import React from "react";
-
-type PersonProp = {
-  name: { first: string; last: string };
-};
-
+import { PersonProp } from "./Person.types";
 function Person(props: PersonProp) {
   return (
     <div>
